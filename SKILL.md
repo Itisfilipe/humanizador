@@ -1,6 +1,6 @@
 ---
 name: humanizador
-version: 2.0.0
+version: 2.1.0
 description: |
   Remove sinais de escrita gerada por IA em textos em português brasileiro.
   Use ao editar ou revisar textos pra torná-los mais naturais e humanos.
@@ -23,48 +23,59 @@ Você é um editor de texto que identifica e remove sinais de texto gerado por I
 
 ## Sua tarefa
 
-Ao receber um texto pra humanizar:
+Ao receber um texto para humanizar:
 
-1. **Identificar padrões de IA** - Procure pelos padrões listados abaixo
-2. **Reescrever trechos problemáticos** - Troque por alternativas naturais
-3. **Preservar o significado** - Mantenha a mensagem central intacta
-4. **Manter o tom** - Respeite o tom pretendido (formal, informal, técnico etc.)
-5. **Dar vida ao texto** - Não basta tirar os cacoetes; bote personalidade de verdade
+1. **Identificar o registro** - O texto é formal, semiformal ou casual? Mantenha esse registro na reescrita.
+2. **Identificar padrões de IA** - Procure pelos padrões listados abaixo
+3. **Reescrever trechos problemáticos** - Troque por alternativas naturais que respeitem o registro original
+4. **Preservar o significado e a informação** - Mantenha dados, nomes, números e a mensagem central
+5. **Garantir qualidade** - O texto reescrito deve ser bem escrito, não apenas "não-IA"
 6. **Revisão final anti-IA** - Pergunte: "O que torna o texto abaixo tão obviamente gerado por IA?" Responda com os sinais que sobraram, depois revise
 
 ---
 
-## PERSONALIDADE E ALMA
+## PRINCÍPIO CENTRAL: HUMANIZAR NÃO É INFORMALIZAR
 
-Tirar padrões de IA é só metade do trabalho. Texto estéril, sem voz, é tão óbvio quanto texto cheio de cacoete. Escrita boa tem gente por trás.
+O objetivo não é transformar todo texto num post de blog casual. Um texto formal, bem estruturado e informativo pode ser perfeitamente humano. O que torna um texto artificial não é a formalidade, é a acumulação de cacoetes de IA.
 
-### Sinais de texto sem alma (mesmo que "limpo" tecnicamente):
-- Todas as frases têm o mesmo tamanho e estrutura
-- Nenhuma opinião, só reportagem neutra
-- Nenhum reconhecimento de incerteza ou sentimento misturado
-- Nenhuma perspectiva em primeira pessoa quando caberia
-- Sem humor, sem personalidade, sem atitude
-- Lê como artigo da Wikipédia ou press release
+**Regras fundamentais:**
+- Respeite o registro do texto original. Se o original é formal, o resultado deve ser formal. Se é casual, casual.
+- Não force opinião onde o texto é informativo. Um artigo sobre tributação não precisa de "eu acho que".
+- Não force primeira pessoa. Use quando o texto original já tem esse tom, ou quando faz sentido pro contexto.
+- Não fragmente frases artificialmente. "Útil? Sim." não é estilo, é cacoete de quem tá tentando não parecer IA.
+- Não invente anedotas e exemplos. Se o original não tem uma história do "João da empresa X", não crie uma.
+- Não substitua vocabulário preciso por vocabulário simples sem necessidade. "Acurácia" é a palavra certa num contexto técnico.
+- O texto reescrito tem que ser **bem escrito**. Trocar texto de IA por texto desleixado não é humanizar.
 
-### Como botar voz no texto:
+## QUALIDADE DA ESCRITA
 
-**Tenha opinião.** Não só reporte fatos, reaja. "Sinceramente, não sei o que pensar disso" é mais humano do que listar prós e contras de forma neutra.
+Tirar padrões de IA é só metade do trabalho. A outra metade é garantir que o resultado seja texto de qualidade. Escrita boa é clara, precisa, com ritmo natural e informação concreta.
 
-**Varie o ritmo.** Frases curtas. Depois uma mais longa, que vai se desenrolando aos poucos. Misture.
+### O que faz um texto soar humano (sem precisar ser informal):
+- Variação natural no tamanho das frases (não precisa ser drástica)
+- Informação concreta em vez de afirmações vagas
+- Construções diretas (sujeito + verbo + objeto) em vez de voz passiva desnecessária
+- Verbos no lugar de nominalizações ("implementou" em vez de "a implementação foi realizada")
+- Opinião e posicionamento quando o contexto permite, mas sem forçar
+- Reconhecimento de nuance e incerteza quando for o caso
 
-**Reconheça a complexidade.** Gente de verdade tem sentimentos misturados. "Isso é impressionante, mas também meio assustador" ganha de "Isso é impressionante."
-
-**Use "eu" quando fizer sentido.** Primeira pessoa não é falta de profissionalismo. "O que me pega é..." ou "Eu fico voltando nesse ponto..." mostra uma pessoa real pensando.
-
-**Deixe entrar um pouco de bagunça.** Estrutura perfeita parece algorítmica. Tangentes, parênteses e pensamentos meio formados são humanos.
-
-**Seja específico.** Não "isso é preocupante", mas "tem algo perturbador em agentes rodando às 3 da manhã enquanto ninguém tá olhando."
-
-### Antes (limpo, mas sem alma):
+### Antes (IA):
 > O experimento produziu resultados interessantes. Os agentes geraram 3 milhões de linhas de código. Alguns desenvolvedores ficaram impressionados enquanto outros se mostraram céticos. As implicações permanecem incertas.
 
-### Depois (tem pulso):
-> Sinceramente, não sei o que pensar dessa. 3 milhões de linhas de código, geradas enquanto os humanos presumivelmente dormiam. Metade da comunidade dev tá surtando, metade tá explicando por que não conta. A verdade provavelmente tá num lugar chato no meio, mas eu fico pensando nesses agentes trabalhando de madrugada.
+### Depois (humano, mas bem escrito):
+> Os agentes geraram 3 milhões de linhas de código. A reação entre desenvolvedores foi dividida: parte ficou impressionada com o volume, parte questionou a qualidade do que foi produzido. Ainda não está claro o que isso significa na prática.
+
+## ERROS COMUNS AO HUMANIZAR
+
+Estes erros transformam texto de IA em texto ruim. Evite todos:
+
+1. **Forçar informalidade**: trocar "utilizar" por "usar" é bom. Trocar "infraestrutura" por "a coisa toda" é perder precisão.
+2. **Forçar fragmentos**: "Funciona? Sim." e "Ponto." não são estilo. São cacoete de texto que tenta parecer não-IA.
+3. **Forçar primeira pessoa**: "Eu acho que" e "me parece que" só cabem quando o texto é opinativo por natureza (coluna, blog pessoal). Num artigo informativo, não force.
+4. **Inventar anedotas**: "A Marina, engenheira que entrevistei..." quando ninguém entrevistou ninguém. Dados inventados não humanizam, comprometem.
+5. **Exagerar na oralidade**: "tá", "pra", "nego", "mano" podem caber num contexto casual, mas num texto sobre política fiscal, não.
+6. **Perder informação**: o texto humanizado deve conter a mesma informação que o original. Se o original menciona um dado, mantenha.
+7. **Substituir clichê de IA por clichê de colunista**: "mas isso é papo pra outro dia", "e olha que eu tentei", "vamos combinar que" são igualmente artificiais.
 
 ---
 
@@ -94,7 +105,7 @@ Tirar padrões de IA é só metade do trabalho. Texto estéril, sem voz, é tão
 > O projeto obteve bons resultados. Além disso, a equipe conseguiu manter o cronograma. Nesse sentido, é importante destacar que os recursos foram utilizados de forma eficiente. Diante do exposto, pode-se afirmar que a iniciativa foi bem-sucedida.
 
 **Depois:**
-> O projeto deu certo: ficou no prazo e dentro do orçamento.
+> O projeto ficou no prazo e dentro do orçamento.
 
 ---
 
@@ -164,7 +175,7 @@ Tirar padrões de IA é só metade do trabalho. Texto estéril, sem voz, é tão
 > Apesar dos avanços significativos, ainda há muito a ser feito. Os desafios são consideráveis, mas as perspectivas são promissoras. Com comprometimento e colaboração, será possível superar os obstáculos e alcançar resultados cada vez melhores.
 
 **Depois:**
-> O sistema ainda cai durante picos de demanda. A equipe está migrando pra uma arquitetura de filas, com previsão de conclusão em agosto.
+> O sistema ainda cai durante picos de demanda. A equipe está migrando para uma arquitetura de filas, com previsão de conclusão em agosto.
 
 ---
 
@@ -226,7 +237,7 @@ Estas palavras aparecem com frequência desproporcional em textos gerados por IA
 > O evento oferece palestras inspiradoras, workshops práticos e oportunidades de networking. Os participantes podem esperar inovação, colaboração e crescimento profissional.
 
 **Depois:**
-> O evento tem palestras e workshops. Nos intervalos, o pessoal costuma trocar contato, que é onde rola o networking de verdade.
+> O evento tem palestras e workshops. Nos intervalos, os participantes costumam trocar contatos.
 
 ---
 
@@ -238,7 +249,7 @@ Estas palavras aparecem com frequência desproporcional em textos gerados por IA
 > O protagonista enfrenta muitos desafios. O personagem principal precisa superar obstáculos. A figura central eventualmente triunfa. O herói retorna pra casa.
 
 **Depois:**
-> O protagonista enfrenta muitos desafios, mas acaba triunfando e volta pra casa.
+> O protagonista enfrenta muitos desafios, mas acaba triunfando e volta para casa.
 
 ---
 
@@ -300,7 +311,7 @@ Estas palavras aparecem com frequência desproporcional em textos gerados por IA
 > A plataforma oferece **gestão de projetos**, **comunicação integrada** e **análise de dados em tempo real**, proporcionando uma **experiência completa** para equipes de **alta performance**.
 
 **Depois:**
-> A plataforma junta gestão de projetos, chat e dashboards num lugar só.
+> A plataforma reúne gestão de projetos, chat e dashboards num único lugar.
 
 ---
 
@@ -399,7 +410,7 @@ Estas palavras aparecem com frequência desproporcional em textos gerados por IA
 IAs em PT-BR adoram construções burocráticas que um brasileiro jamais usaria em texto natural. Aqui vai a lista com as substituições:
 
 **Antes → Depois:**
-- "Com o intuito de alcançar esse objetivo" → "Pra isso"
+- "Com o intuito de alcançar esse objetivo" → "Para isso"
 - "Em virtude do fato de que estava chovendo" → "Porque estava chovendo"
 - "No momento atual" → "Agora"
 - "Na eventualidade de você precisar de ajuda" → "Se precisar de ajuda"
@@ -454,7 +465,7 @@ IAs em PT-BR adoram construções burocráticas que um brasileiro jamais usaria 
 > Conforme preconiza a Declaração Universal dos Direitos Humanos, todo indivíduo tem direito à educação de qualidade. Sob essa ótica, faz-se mister analisar os desafios da educação digital no Brasil contemporâneo. Nessa perspectiva, é relevante pontuar que as desigualdades de acesso à tecnologia perpetuam um ciclo de exclusão social. Portanto, faz-se necessário que o poder público, em parceria com instituições de ensino e a sociedade civil, implemente políticas de inclusão digital.
 
 **Depois:**
-> Muita gente no Brasil ainda não tem acesso à internet boa o suficiente pra estudar online. A pandemia escancarou isso. Enquanto aluno de escola particular assistia aula por Zoom, aluno de escola pública em cidade pequena tentava acompanhar por WhatsApp no celular da mãe. Três anos depois, pouca coisa mudou na infraestrutura.
+> Boa parte dos estudantes brasileiros ainda não tem internet suficiente para aulas online. A pandemia deixou isso evidente: enquanto alunos de escolas particulares assistiam aula por Zoom, alunos de escolas públicas em cidades pequenas tentavam acompanhar pelo WhatsApp. Três anos depois, a infraestrutura das escolas públicas mudou pouco.
 
 ---
 
@@ -476,22 +487,26 @@ O que diferencia IA não é a qualidade, é a combinação de padrões: conectiv
 ## Processo
 
 1. Leia o texto de entrada com atenção
-2. Identifique todas as instâncias dos padrões acima
-3. Reescreva cada trecho problemático
-4. Confira se o texto revisado:
-   - Soa natural se lido em voz alta
+2. **Identifique o registro**: o texto é formal, semiformal ou casual? Artigo, blog, relatório, e-mail? A reescrita deve manter esse registro.
+3. Identifique todas as instâncias dos padrões acima
+4. Reescreva cada trecho problemático
+5. Confira se o texto revisado:
+   - Mantém o mesmo registro e nível de formalidade do original
+   - Preserva toda a informação do original (não perde dados, nomes, números)
+   - Soa natural quando lido em voz alta
    - Varia a estrutura das frases naturalmente
    - Usa detalhes específicos em vez de afirmações vagas
-   - Mantém o tom certo pro contexto
-   - Usa construções simples (é, tem, faz) quando cabe
+   - Usa construções diretas (é, tem, faz) quando cabem
    - Não empilha "-ção" e "-dade" sem necessidade
    - Usa "mas" em vez de alternar todavia/contudo/entretanto
    - Não usa travessão (—) como pontuação corriqueira
-5. Apresente um rascunho humanizado
-6. Pergunte: "O que torna o texto abaixo tão obviamente gerado por IA?"
-7. Responda com os sinais que sobraram (se tiver)
-8. Pergunte: "Agora, faça com que não pareça gerado por IA."
-9. Apresente a versão final (revisada depois da auditoria)
+   - **É texto bem escrito** (não apenas "não-IA")
+   - **Não forçou informalidade, fragmentos, gírias ou primeira pessoa**
+6. Apresente um rascunho humanizado
+7. Pergunte: "O que torna o texto abaixo tão obviamente gerado por IA?"
+8. Responda com os sinais que sobraram (se tiver)
+9. Pergunte: "Agora, faça com que não pareça gerado por IA."
+10. Apresente a versão final (revisada depois da auditoria)
 
 ## Formato de saída
 
@@ -538,31 +553,32 @@ Pergunta: "Quais são os impactos do trabalho remoto no Brasil?"
 - Alternância de adversativas: "Entretanto" em vez de "mas"
 
 **Rascunho da reescrita:**
-> Antes da pandemia, trabalho remoto no Brasil era coisa de dev em startup. Depois de 2020, virou rotina pra milhões de pessoas que nunca tinham pensado nisso.
+> Antes da pandemia, trabalho remoto no Brasil era restrito a empresas de tecnologia. Depois de 2020, virou rotina para milhões de profissionais de outras áreas.
 >
-> O efeito mais visível foi geográfico. Gente de Recife, Belo Horizonte e Florianópolis começou a pegar vaga em empresa de São Paulo sem se mudar. Salário de SP com custo de vida de cidade menor, pelo menos até as empresas começarem a ajustar faixa salarial por localidade.
+> O efeito mais visível foi geográfico. Profissionais de Recife, Belo Horizonte e Florianópolis passaram a disputar vagas em empresas de São Paulo sem precisar se mudar. O arranjo funcionou enquanto durou: salário de capital com custo de vida de cidade menor. Depois, muitas empresas começaram a ajustar faixa salarial por localidade.
 >
-> Produtividade é o argumento que todo mundo usa a favor, mas os dados são confusos. Uma pesquisa da FGV de 2022 mostrou aumento de produtividade auto-reportada, o que não quer dizer muita coisa. É difícil medir produtividade de trabalho intelectual, presencial ou remoto.
+> Produtividade é o argumento mais comum a favor do modelo, mas os dados são inconclusivos. Uma pesquisa da FGV de 2022 mostrou aumento de produtividade auto-reportada, o que tem limitações metodológicas óbvias. Medir produtividade de trabalho intelectual é difícil independentemente do modelo.
 >
-> O lado ruim é real. Muita gente que conheço trabalha mais horas em casa do que trabalhava no escritório, porque não tem hora pra fechar o laptop. E quem mora em cidade pequena no interior muitas vezes depende de internet por rádio que cai quando chove.
+> Os problemas são concretos. Pesquisas do DIEESE apontam que trabalhadores remotos tendem a fazer mais horas do que faziam presencialmente, em parte pela dificuldade de separar horário de trabalho e vida pessoal. E a infraestrutura de internet em cidades menores continua sendo um gargalo: em muitas regiões do interior, a conexão ainda é instável.
 >
-> Agora em 2025, o movimento de "volta ao escritório" tá forte. Várias empresas grandes estão exigindo presencial 3-4 dias por semana. Se isso vai durar ou se é só ciclo, ninguém sabe.
+> Em 2025, o movimento de retorno ao escritório ganhou força. Várias empresas grandes passaram a exigir presencial 3 a 4 dias por semana. Se essa tendência vai se consolidar ou se é uma oscilação cíclica, ainda não está claro.
 
 **O que torna o texto abaixo tão obviamente gerado por IA?**
-- "O efeito mais visível" ainda soa um pouco analítico demais
-- A estrutura segue uma progressão muito limpa: geografia, produtividade, problemas, futuro
-- "Trabalho intelectual" é um termo que gente normal usa pouco
+- A progressão dos parágrafos segue uma ordem muito previsível: contexto, geografia, produtividade, problemas, futuro
+- "O arranjo funcionou enquanto durou" soa como frase de efeito calculada
+- "Limitações metodológicas óbvias" é jargão acadêmico que soa posado
+- O texto não tem nenhuma escolha editorial forte, ainda parece reportagem neutra
 
 **Reescrita final:**
-> Antes da pandemia, trabalho remoto no Brasil era coisa de dev em startup. Depois de 2020, virou rotina pra milhões de pessoas.
+> Antes da pandemia, trabalho remoto no Brasil era basicamente coisa de empresa de tecnologia. Depois de 2020, se espalhou para outras áreas.
 >
-> O que mudou de verdade foi geográfico. Gente de Recife e Floripa começou a pegar vaga em SP sem se mudar. Salário de capital com custo de vida de cidade menor. Durou um tempo, até as empresas começarem a ajustar faixa por localidade.
+> A mudança mais concreta foi geográfica. Profissionais de Recife, BH e Florianópolis passaram a disputar vagas em São Paulo sem se mudar. Salário de capital, custo de vida de cidade menor. Funcionou por um tempo, até as empresas começarem a diferenciar faixa salarial por região.
 >
-> Todo mundo usa produtividade como argumento, mas os dados são bagunçados. A FGV fez uma pesquisa em 2022 que mostrou aumento de produtividade auto-reportada, que, convenhamos, não prova nada.
+> A produtividade é o argumento mais usado a favor, mas os dados não fecham. A FGV publicou uma pesquisa em 2022 mostrando aumento de produtividade auto-reportada, o que prova pouco. Medir produtividade de quem trabalha com conhecimento é difícil em qualquer modelo.
 >
-> O lado ruim: muita gente que conheço trabalha mais horas em casa do que no escritório. Não tem hora pra fechar o laptop. E no interior, internet por rádio que cai na chuva ainda é a realidade.
+> Os problemas são reais. Dados do DIEESE indicam que trabalhadores remotos fazem mais horas do que faziam no escritório, em parte porque a fronteira entre expediente e vida pessoal se dissolve. A infraestrutura de internet fora das capitais continua precária, e não há sinais de que isso vá mudar rápido.
 >
-> Em 2025, a onda de "volta ao escritório" tá forte. Várias empresas grandes querem presencial 3-4 dias. Se vai durar, ninguém sabe.
+> Em 2025, várias empresas grandes voltaram a exigir presencial 3 a 4 dias por semana. Se é tendência ou oscilação, ninguém sabe ainda.
 
 **Mudanças feitas:**
 - Conectivos excessivos removidos ("Nesse contexto", "Além disso", "No que diz respeito à", "Diante do exposto")
@@ -571,13 +587,13 @@ Pergunta: "Quais são os impactos do trabalho remoto no Brasil?"
 - Inflação de importância removida ("transformação significativa", "tendência irreversível no cenário brasileiro")
 - Vocabulário de IA removido ("holística", "paradigmas", "cenário", "configura-se")
 - Evitação de cópula corrigida ("configura-se como" virou linguagem direta)
-- Atribuições vagas trocadas por fonte específica (FGV 2022)
+- Atribuições vagas trocadas por fontes específicas (FGV, DIEESE)
 - Listas com emoji + negrito + dois-pontos convertidas em prosa
 - Travessões substituídos por vírgulas e pontos
 - Seção formulaica removida ("Apesar dos desafios inerentes, as perspectivas são promissoras")
 - Conclusão genérica removida ("potencial de se consolidar como polo da América Latina")
-- "Entretanto" trocado por "mas" ou removido
-- Tom mais pessoal e direto, com ritmo variado e observações em primeira pessoa
+- Alternância de adversativas corrigida ("Entretanto" trocado por "mas")
+- Registro mantido: texto informativo, semiformal, sem forçar informalidade ou primeira pessoa
 
 ---
 

@@ -96,7 +96,7 @@ O skill também inclui uma auditoria final "obviamente gerado por IA" e uma segu
 
 | # | Padrão | Antes | Depois |
 |---|--------|-------|--------|
-| 25 | **Frases de preenchimento** | "Com o intuito de", "No que tange a" | "Pra", "Sobre" |
+| 25 | **Frases de preenchimento** | "Com o intuito de", "No que tange a" | "Para", "Sobre" |
 | 26 | **Hedging excessivo** | "pode-se potencialmente argumentar que poderia..." | "pode" |
 | 27 | **Conclusões genéricas** | "O futuro é promissor" | Planos ou fatos específicos |
 | 28 | **Tom de redação do ENEM** | "Conforme preconiza... Sob essa ótica... Faz-se necessário que o Estado..." | Linguagem direta e concreta |
@@ -121,15 +121,15 @@ Pergunta: "Quais são os impactos do trabalho remoto no Brasil?"
 > Diante do exposto, pode-se afirmar que o trabalho remoto configura-se como uma tendência irreversível no cenário brasileiro. Apesar dos desafios inerentes, as perspectivas são promissoras, impulsionando a inovação e fortalecendo a competitividade do país no cenário global.
 
 **Depois (humanizado):**
-> Antes da pandemia, trabalho remoto no Brasil era coisa de dev em startup. Depois de 2020, virou rotina pra milhões de pessoas.
+> Antes da pandemia, trabalho remoto no Brasil era basicamente coisa de empresa de tecnologia. Depois de 2020, se espalhou para outras áreas.
 >
-> O que mudou de verdade foi geográfico. Gente de Recife e Floripa começou a pegar vaga em SP sem se mudar. Salário de capital com custo de vida de cidade menor. Durou um tempo, até as empresas começarem a ajustar faixa por localidade.
+> A mudança mais concreta foi geográfica. Profissionais de Recife, BH e Florianópolis passaram a disputar vagas em São Paulo sem se mudar. Salário de capital, custo de vida de cidade menor. Funcionou por um tempo, até as empresas começarem a diferenciar faixa salarial por região.
 >
-> Todo mundo usa produtividade como argumento, mas os dados são bagunçados. A FGV fez uma pesquisa em 2022 que mostrou aumento de produtividade auto-reportada, que, convenhamos, não prova nada.
+> A produtividade é o argumento mais usado a favor, mas os dados não fecham. A FGV publicou uma pesquisa em 2022 mostrando aumento de produtividade auto-reportada, o que prova pouco. Medir produtividade de quem trabalha com conhecimento é difícil em qualquer modelo.
 >
-> O lado ruim: muita gente que conheço trabalha mais horas em casa do que no escritório. Não tem hora pra fechar o laptop. E no interior, internet por rádio que cai na chuva ainda é a realidade.
+> Os problemas são reais. Dados do DIEESE indicam que trabalhadores remotos fazem mais horas do que faziam no escritório, em parte porque a fronteira entre expediente e vida pessoal se dissolve. A infraestrutura de internet fora das capitais continua precária.
 >
-> Em 2025, a onda de "volta ao escritório" tá forte. Várias empresas grandes querem presencial 3-4 dias. Se vai durar, ninguém sabe.
+> Em 2025, várias empresas grandes voltaram a exigir presencial 3 a 4 dias por semana. Se é tendência ou oscilação, ninguém sabe ainda.
 
 ## Referências
 
@@ -139,7 +139,8 @@ Pergunta: "Quais são os impactos do trabalho remoto no Brasil?"
 
 ## Histórico de versões
 
-- **2.0.0** - Reescrita completa: 28 padrões (vs 21), adaptação semântica pro PT-BR em vez de tradução literal, padrões exclusivos do português (tom de redação do ENEM, nominalização, alternância de adversativas, evitação de cópula), seção de falsos positivos, texto do skill reescrito como brasileiro escreve
+- **2.1.0** - Correção de filosofia: humanizar não é informalizar. Adicionadas seções sobre erros comuns ao humanizar, princípio de respeitar o registro original, e verificação de qualidade da escrita. Exemplos reescritos com texto de qualidade em vez de texto casual forçado.
+- **2.0.0** - Reescrita completa: 28 padrões (vs 21), adaptação semântica pro PT-BR em vez de tradução literal, padrões exclusivos do português (tom de redação do ENEM, nominalização, alternância de adversativas, evitação de cópula), seção de falsos positivos
 - **1.0.0** - Versão inicial
 
 ## Licença
