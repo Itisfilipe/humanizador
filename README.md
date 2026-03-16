@@ -96,27 +96,29 @@ O skill tambem inclui uma auditoria final "obviamente gerado por IA" e uma segun
 
 ## Exemplo completo
 
-**Antes (tom de IA):**
-> Otima pergunta! Aqui esta um texto sobre o tema. Espero que ajude!
+Pergunta: "Quais sao os impactos do trabalho remoto no Brasil?"
+
+**Antes (resposta tipica de IA):**
+> O trabalho remoto no Brasil passou por uma transformacao significativa nos ultimos anos, especialmente apos a pandemia de COVID-19. Nesse contexto, e importante destacar que o trabalho remoto trouxe diversos beneficios para os profissionais brasileiros. Alem disso, a flexibilidade proporcionada pelo home office permitiu que trabalhadores de regioes menos favorecidas pudessem acessar oportunidades em grandes centros, contribuindo para a descentralizacao do mercado de trabalho e fomentando o desenvolvimento regional.
 >
-> A inteligencia artificial configura-se como um marco transformador no cenario tecnologico contemporaneo, desempenhando um papel fundamental na evolucao do desenvolvimento de software. No cenario atual, essas ferramentas inovadoras — situadas na intersecao entre pesquisa e pratica — estao remodelando a forma como engenheiros idealizam, iteram e entregam solucoes, evidenciando seu papel crucial nos fluxos de trabalho modernos.
+> No que diz respeito a produtividade, estudos indicam que profissionais em regime remoto tendem a apresentar niveis de produtividade iguais ou superiores. Essa constatacao desafia paradigmas tradicionais de gestao e evidencia a necessidade de uma abordagem mais holistica.
 >
-> Em sua essencia, a proposta de valor e clara: otimizar processos, fomentar colaboracao e promover alinhamento. Nao se trata apenas de autocomplete; trata-se de desbloquear criatividade em escala. A ferramenta serve como catalisador. O assistente funciona como parceiro. O sistema se consolida como alicerce da inovacao.
+> - 💡 **Flexibilidade:** Profissionais podem trabalhar de qualquer lugar, promovendo qualidade de vida.
+> - 🚀 **Produtividade:** Estudos apontam ganhos de produtividade em diversos setores.
+> - ✅ **Inclusao:** O modelo remoto pode contribuir para a inclusao de profissionais de regioes diversas.
 >
-> - 💡 **Velocidade:** A geracao de codigo e significativamente mais rapida.
-> - 🚀 **Qualidade:** A qualidade do output foi aprimorada.
-> - ✅ **Adocao:** O uso continua crescendo.
->
-> Apesar dos desafios tipicos de tecnologias emergentes, o ecossistema continua a prosperar. O futuro e promissor. Se precisar de mais alguma coisa, e so falar!
+> Diante do exposto, pode-se afirmar que o trabalho remoto configura-se como uma tendencia irreversivel no cenario brasileiro. Apesar dos desafios inerentes, as perspectivas sao promissoras, impulsionando a inovacao e fortalecendo a competitividade do pais no cenario global.
 
 **Depois (humanizado):**
-> Assistentes de codigo com IA te deixam mais rapido nas partes chatas. Nao em tudo. Definitivamente nao em arquitetura.
+> Antes da pandemia, trabalho remoto no Brasil era coisa de dev em startup. Depois de 2020, virou rotina pra milhoes de pessoas.
 >
-> Eles mandam bem em boilerplate: config, scaffolding de teste, refatoracao repetitiva. Tambem mandam bem em parecer certo estando errado. Eu ja aceitei sugestao que compilou, passou no lint e ainda assim errou o ponto, porque eu parei de prestar atencao.
+> O que mudou de verdade foi geografico. Gente de Recife e Floripa comecou a pegar vaga em SP sem se mudar. Salario de capital com custo de vida de cidade menor. Durou um tempo, ate as empresas comecarem a ajustar faixa por localidade.
 >
-> As pessoas com quem converso caem em dois grupos. Uns usam como autocomplete pra tarefas chatas e revisam cada linha. Outros desativam depois que a ferramenta fica sugerindo padroes que nao querem. As duas reacoes fazem sentido.
+> Todo mundo usa produtividade como argumento, mas os dados sao baguncados. A FGV fez uma pesquisa em 2022 que mostrou aumento de produtividade auto-reportada — que, convenhamos, nao prova nada.
 >
-> As metricas de produtividade sao escorregadias. O GitHub pode dizer que usuarios do Copilot "aceitam 30% das sugestoes", mas aceitar nao e acertar, e acertar nao e gerar valor. Se voce nao tem testes, ta basicamente chutando.
+> O lado ruim: muita gente que conheco trabalha mais horas em casa do que no escritorio. Nao tem hora pra fechar o laptop. E no interior, internet por radio que cai na chuva ainda e a realidade.
+>
+> Em 2025, a onda de "volta ao escritorio" ta forte. Varias empresas grandes querem presencial 3-4 dias. Se vai durar, ninguem sabe.
 
 ## Referencias
 

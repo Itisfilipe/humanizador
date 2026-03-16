@@ -385,65 +385,74 @@ Forneça:
 
 ## Exemplo completo
 
-**Antes (tom de IA):**
-> Ótima pergunta! Aqui está um texto sobre o tema. Espero que ajude!
+Pergunta: "Quais são os impactos do trabalho remoto no Brasil?"
+
+**Antes (resposta típica de IA):**
+> O trabalho remoto no Brasil passou por uma transformação significativa nos últimos anos, especialmente após a pandemia de COVID-19. Esse modelo de trabalho, que antes era restrito a poucas empresas de tecnologia, ganhou uma adoção massiva em diversos setores da economia brasileira.
 >
-> A inteligência artificial configura-se como um marco transformador no cenário tecnológico contemporâneo, desempenhando um papel fundamental na evolução do desenvolvimento de software. No cenário atual, essas ferramentas inovadoras — situadas na interseção entre pesquisa e prática — estão remodelando a forma como engenheiros idealizam, iteram e entregam soluções, evidenciando seu papel crucial nos fluxos de trabalho modernos.
+> Nesse contexto, é importante destacar que o trabalho remoto trouxe diversos benefícios para os profissionais brasileiros. Além disso, a flexibilidade proporcionada pelo home office permitiu que trabalhadores de regiões menos favorecidas economicamente pudessem acessar oportunidades em grandes centros como São Paulo e Rio de Janeiro, contribuindo para a descentralização do mercado de trabalho e fomentando o desenvolvimento regional.
 >
-> Em sua essência, a proposta de valor é clara: otimizar processos, fomentar colaboração e promover alinhamento. Não se trata apenas de autocomplete; trata-se de desbloquear criatividade em escala, garantindo que organizações permaneçam ágeis enquanto entregam experiências fluidas, intuitivas e poderosas. A ferramenta serve como catalisador. O assistente funciona como parceiro. O sistema se consolida como alicerce da inovação.
+> No que diz respeito à produtividade, estudos indicam que profissionais em regime remoto tendem a apresentar níveis de produtividade iguais ou superiores aos de seus colegas presenciais. Essa constatação desafia paradigmas tradicionais de gestão e evidencia a necessidade de uma abordagem mais holística na avaliação de desempenho.
 >
-> Especialistas observam que a adoção acelerou de experimentos individuais a implementações corporativas, de desenvolvedores solo a equipes multifuncionais. Além disso, a capacidade de gerar documentação, testes e refatorações evidencia como a IA pode contribuir para melhores resultados, destacando a complexa interação entre automação e julgamento humano.
+> Entretanto, vale ressaltar que o trabalho remoto também apresenta desafios significativos. A saúde mental dos trabalhadores tem sido impactada pelo isolamento social e pela dificuldade de estabelecer limites claros entre vida pessoal e profissional. Além disso, a infraestrutura digital brasileira — ainda marcada por desigualdades regionais — representa um obstáculo considerável para a universalização desse modelo.
 >
-> - 💡 **Velocidade:** A geração de código é significativamente mais rápida, reduzindo atrito e empoderando desenvolvedores.
-> - 🚀 **Qualidade:** A qualidade do output foi aprimorada através de treinamento otimizado, contribuindo para padrões mais elevados.
-> - ✅ **Adoção:** O uso continua crescendo, refletindo tendências mais amplas da indústria.
+> - 💡 **Flexibilidade:** Profissionais podem trabalhar de qualquer lugar, promovendo qualidade de vida.
+> - 🚀 **Produtividade:** Estudos apontam ganhos de produtividade em diversos setores.
+> - ✅ **Inclusão:** O modelo remoto pode contribuir para a inclusão de profissionais de regiões diversas.
 >
-> Embora informações específicas sejam limitadas, pode-se potencialmente argumentar que essas ferramentas poderiam ter algum efeito positivo. Apesar dos desafios típicos de tecnologias emergentes — incluindo alucinações, viés e responsabilidade — o ecossistema continua a prosperar. Com o intuito de realizar plenamente esse potencial, as equipes devem se alinhar com as melhores práticas.
->
-> Em conclusão, o futuro é promissor. Tempos empolgantes estão por vir à medida que continuamos essa jornada rumo à excelência. Se precisar de mais alguma coisa, é só falar!
+> Diante do exposto, pode-se afirmar que o trabalho remoto configura-se como uma tendência irreversível no cenário brasileiro. Apesar dos desafios inerentes, as perspectivas são promissoras. Com o avanço da infraestrutura digital e o amadurecimento das práticas de gestão remota, o Brasil tem o potencial de se consolidar como um dos principais polos de trabalho remoto da América Latina, impulsionando a inovação e fortalecendo a competitividade do país no cenário global.
+
+**Padrões identificados:**
+- Conectivos excessivos: "Nesse contexto", "Além disso" (2x), "No que diz respeito à", "Diante do exposto"
+- Construções impessoais: "é importante destacar que", "pode-se afirmar que", "vale ressaltar que"
+- Gerúndios superficiais: "contribuindo para", "fomentando", "promovendo", "impulsionando", "fortalecendo"
+- Inflação de importância: "transformação significativa", "desafios significativos", "tendência irreversível no cenário brasileiro"
+- Vocabulário de IA: "holística", "paradigmas", "cenário" (3x), "configura-se"
+- Atribuições vagas: "estudos indicam", "estudos apontam"
+- Listas com emoji + negrito + dois-pontos
+- Seção formulaica de desafios: "Apesar dos desafios inerentes, as perspectivas são promissoras"
+- Conclusão genérica positiva: "potencial de se consolidar como um dos principais polos"
+- Travessão decorativo
+- Regra de três nas listas
 
 **Rascunho da reescrita:**
-> Assistentes de código com IA aceleram algumas tarefas. Num estudo de 2024 do Google, devs usando Codex terminaram funções simples 55% mais rápido que o grupo controle, mas não melhoraram em debugging nem em decisões de arquitetura.
+> Antes da pandemia, trabalho remoto no Brasil era coisa de dev em startup. Depois de 2020, virou rotina pra milhões de pessoas que nunca tinham pensado nisso.
 >
-> As ferramentas são boas pra boilerplate: arquivos de config, scaffolding de teste, refatorações repetitivas. São ruins em saber quando estão erradas. Eu já aceitei sugestões que compilaram, passaram no lint e ainda assim faziam a coisa errada, porque parei de prestar atenção.
+> O efeito mais visível foi geográfico. Gente de Recife, Belo Horizonte e Florianópolis começou a pegar vaga em empresa de São Paulo sem se mudar. Os salários de SP com custo de vida de cidade menor — por um tempo, pelo menos, até as empresas começarem a ajustar faixa salarial por localidade.
 >
-> A Marina, engenheira numa fintech que entrevistei, disse que usa Copilot "como autocomplete pra código chato", mas revisa cada linha antes de commitar. O Thiago, dev sênior numa empresa maior, desativou depois que a ferramenta ficava sugerindo padrões de uma lib interna descontinuada.
+> Produtividade é o argumento que todo mundo usa a favor, mas os dados são confusos. Uma pesquisa da FGV de 2022 mostrou aumento de produtividade auto-reportada, o que não quer dizer muita coisa. É difícil medir produtividade em trabalho de conhecimento, presencial ou remoto.
 >
-> As alegações de produtividade são difíceis de verificar. O GitHub diz que usuários do Copilot "aceitam 30% das sugestões", mas aceitar não é acertar, e acertar não é gerar valor.
+> O lado ruim é real. Muita gente que conheço trabalha mais horas em casa do que trabalhava no escritório, porque não tem hora pra fechar o laptop. E quem mora em cidade pequena no interior muitas vezes depende de internet por rádio que cai quando chove.
 >
-> Nada disso quer dizer que as ferramentas são inúteis. Quer dizer que são ferramentas. Não substituem julgamento e não eliminam a necessidade de testes.
+> Agora em 2025, o movimento de "volta ao escritório" tá forte. Várias empresas grandes estão exigindo presencial 3-4 dias por semana. Se isso vai durar ou se é só ciclo, ninguém sabe.
 
 **O que torna o texto abaixo tão obviamente gerado por IA?**
-- O ritmo ainda é organizado demais (contrastes limpos, parágrafos com cadência uniforme).
-- Os nomes das pessoas e citações de estudos podem soar como placeholders plausíveis-mas-inventados se não forem reais.
-- O encerramento tem um tom meio de slogan ("Não substituem julgamento...").
+- "O efeito mais visível" ainda soa um pouco analítico demais
+- A estrutura segue uma progressão muito limpa: geografia → produtividade → problemas → futuro
+- "Trabalho de conhecimento" é um termo que humanos usam menos que IAs
 
 **Reescrita final:**
-> Assistentes de código com IA te deixam mais rápido nas partes chatas. Não em tudo. Definitivamente não em arquitetura.
+> Antes da pandemia, trabalho remoto no Brasil era coisa de dev em startup. Depois de 2020, virou rotina pra milhões de pessoas.
 >
-> Eles mandam bem em boilerplate: config, scaffolding de teste, refatoração repetitiva. Também mandam bem em parecer certo estando errado. Eu já aceitei sugestão que compilou, passou no lint e ainda assim errou o ponto, porque eu parei de prestar atenção.
+> O que mudou de verdade foi geográfico. Gente de Recife e Floripa começou a pegar vaga em SP sem se mudar. Salário de capital com custo de vida de cidade menor. Durou um tempo, até as empresas começarem a ajustar faixa por localidade.
 >
-> As pessoas com quem converso caem em dois grupos. Uns usam como autocomplete pra tarefas chatas e revisam cada linha. Outros desativam depois que a ferramenta fica sugerindo padrões que não querem. As duas reações fazem sentido.
+> Todo mundo usa produtividade como argumento, mas os dados são bagunçados. A FGV fez uma pesquisa em 2022 que mostrou aumento de produtividade auto-reportada — que, convenhamos, não prova nada.
 >
-> As métricas de produtividade são escorregadias. O GitHub pode dizer que usuários do Copilot "aceitam 30% das sugestões", mas aceitar não é acertar, e acertar não é gerar valor. Se você não tem testes, tá basicamente chutando.
+> O lado ruim: muita gente que conheço trabalha mais horas em casa do que no escritório. Não tem hora pra fechar o laptop. E no interior, internet por rádio que cai na chuva ainda é a realidade.
+>
+> Em 2025, a onda de "volta ao escritório" tá forte. Várias empresas grandes querem presencial 3-4 dias. Se vai durar, ninguém sabe.
 
 **Mudanças feitas:**
-- Removidos artefatos de chatbot ("Ótima pergunta!", "Espero que ajude!", "Se precisar...")
-- Removida inflação de importância ("configura-se como um marco", "papel fundamental", "cenário contemporâneo")
-- Removida linguagem promocional ("inovadoras", "fluidas, intuitivas e poderosas")
-- Removidas atribuições vagas ("Especialistas observam")
-- Removidos gerúndios superficiais ("evidenciando", "destacando", "contribuindo para")
-- Removida construção "Não se trata apenas de X; trata-se de Y"
-- Removidos padrões de regra de três e variação forçada de sinônimos ("catalisador/parceiro/alicerce")
-- Removidas falsas gradações ("de X a Y, de A a B")
-- Removidos travessões excessivos, emojis, negritos decorativos
-- Removidos conectivos excessivos ("Além disso")
-- Removida seção formulaica de desafios ("Apesar dos desafios... continua a prosperar")
-- Removido disclaimer de limitação ("Embora informações específicas sejam limitadas...")
-- Removido hedging excessivo ("pode-se potencialmente argumentar que... poderiam ter algum")
-- Removidas frases de preenchimento ("Com o intuito de", "Em sua essência")
-- Removida conclusão genérica positiva ("o futuro é promissor", "jornada rumo à excelência")
-- Tom mais pessoal e menos "montado" (ritmo variado, menos formalidade desnecessária)
+- Removidos conectivos excessivos ("Nesse contexto", "Além disso", "No que diz respeito à", "Diante do exposto")
+- Removidas construções impessoais ("é importante destacar que", "pode-se afirmar que", "vale ressaltar que")
+- Removidos gerúndios superficiais ("contribuindo para", "fomentando", "promovendo", "impulsionando", "fortalecendo")
+- Removida inflação de importância ("transformação significativa", "tendência irreversível no cenário brasileiro")
+- Removido vocabulário de IA ("holística", "paradigmas", "cenário", "configura-se")
+- Removidas atribuições vagas ("estudos indicam") — substituídas por fonte específica (FGV 2022)
+- Removidas listas com emoji + negrito + dois-pontos — convertidas em prosa
+- Removida seção formulaica ("Apesar dos desafios inerentes, as perspectivas são promissoras")
+- Removida conclusão genérica positiva ("potencial de se consolidar como polo da América Latina")
+- Tom mais pessoal e direto, com ritmo variado e observações em primeira pessoa
 
 ---
 
