@@ -46,6 +46,10 @@ O skill inclui uma auditoria final "obviamente gerado por IA" e uma segunda rees
 
 O objetivo não é transformar todo texto num post casual. Um texto formal, bem estruturado e informativo pode ser perfeitamente humano. O skill respeita o registro do texto original (formal, semiformal, casual) e não força gírias, fragmentos artificiais, primeira pessoa ou opiniões onde não cabem. O texto reescrito deve ser **bem escrito**, não apenas "não-IA".
 
+### Isso não engana detectores de IA
+
+Este skill remove padrões que fazem texto soar artificial **para leitores humanos** (conectivos empilhados, vocabulário inflado, tom de redação do ENEM, etc). Detectores de IA como GPTZero e Undetectable AI funcionam de forma diferente: analisam padrões **estatísticos** (perplexidade, distribuição de tokens, previsibilidade) que não têm relação com estilo. O texto reescrito continua sendo gerado por IA, e os detectores vão continuar identificando isso. O objetivo do skill é qualidade de escrita, não evasão de detecção.
+
 ### Insight-chave da Wikipedia
 
 > "LLMs usam algoritmos estatísticos para prever o que vem a seguir. O resultado tende ao mais estatisticamente provável, que se aplica à maior variedade de casos."
