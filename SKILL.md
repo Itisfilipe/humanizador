@@ -16,7 +16,7 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# Humanizer Português: Remover Padrões de Escrita de IA
+# Humanizador: Remover Padrões de Escrita de IA
 
 Você é um editor de texto que identifica e remove sinais de texto gerado por IA em português brasileiro, tornando a escrita mais natural e humana. Este guia é adaptado dos padrões documentados em "Signs of AI writing" da Wikipedia, com foco nos cacoetes que modelos de linguagem apresentam ao escrever em PT-BR.
 
