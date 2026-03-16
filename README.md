@@ -38,13 +38,17 @@ Por favor, humanize este texto: [seu texto]
 
 ## Visão geral
 
-Baseado na página [Wikipedia "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), mantida pelo WikiProject AI Cleanup, com padrões adaptados **semanticamente** pro português brasileiro. Tradução literal não funciona: os cacoetes de IA em português são diferentes dos cacoetes em inglês.
+Baseado na página [Wikipedia "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), mantida pelo WikiProject AI Cleanup, com padrões adaptados **semanticamente** para o português brasileiro. Tradução literal não funciona: os cacoetes de IA em português são diferentes dos cacoetes em inglês.
 
-O skill também inclui uma auditoria final "obviamente gerado por IA" e uma segunda reescrita, pra pegar cacoetes que sobreviveram ao primeiro rascunho.
+O skill inclui uma auditoria final "obviamente gerado por IA" e uma segunda reescrita, para pegar cacoetes que sobreviveram ao primeiro rascunho.
+
+### Princípio central: humanizar não é informalizar
+
+O objetivo não é transformar todo texto num post casual. Um texto formal, bem estruturado e informativo pode ser perfeitamente humano. O skill respeita o registro do texto original (formal, semiformal, casual) e não força gírias, fragmentos artificiais, primeira pessoa ou opiniões onde não cabem. O texto reescrito deve ser **bem escrito**, não apenas "não-IA".
 
 ### Insight-chave da Wikipedia
 
-> "LLMs usam algoritmos estatísticos pra prever o que vem a seguir. O resultado tende ao mais estatisticamente provável, que se aplica à maior variedade de casos."
+> "LLMs usam algoritmos estatísticos para prever o que vem a seguir. O resultado tende ao mais estatisticamente provável, que se aplica à maior variedade de casos."
 
 ## 28 Padrões detectados (com exemplos Antes/Depois)
 
@@ -101,35 +105,37 @@ O skill também inclui uma auditoria final "obviamente gerado por IA" e uma segu
 | 27 | **Conclusões genéricas** | "O futuro é promissor" | Planos ou fatos específicos |
 | 28 | **Tom de redação do ENEM** | "Conforme preconiza... Sob essa ótica... Faz-se necessário que o Estado..." | Linguagem direta e concreta |
 
-### Bônus: o que NÃO é sinal de IA
+### Bônus: erros comuns ao humanizar e falsos positivos
 
-O skill também inclui uma seção sobre falsos positivos: gramática perfeita, vocabulário amplo, tom formal e texto longo não são sinais de IA. O que entrega é a **combinação** de padrões.
+O skill inclui uma seção de **erros comuns** (forçar informalidade, inventar anedotas, fragmentar frases artificialmente, perder informação, trocar clichê de IA por clichê de colunista) e uma seção de **falsos positivos**: gramática perfeita, vocabulário amplo, tom formal e texto longo não são sinais de IA. O que entrega é a **combinação** de padrões.
 
 ## Exemplo completo
 
-Pergunta: "Quais são os impactos do trabalho remoto no Brasil?"
+Pergunta: "Escreva um post de blog sobre o impacto da IA na educação brasileira."
 
 **Antes (resposta típica de IA):**
-> O trabalho remoto no Brasil passou por uma transformação significativa nos últimos anos, especialmente após a pandemia de COVID-19. Nesse contexto, é importante destacar que o trabalho remoto trouxe diversos benefícios para os profissionais brasileiros. Além disso, a flexibilidade proporcionada pelo home office permitiu que trabalhadores de regiões menos favorecidas pudessem acessar oportunidades em grandes centros, contribuindo para a descentralização do mercado de trabalho e fomentando o desenvolvimento regional.
+> # O Impacto da Inteligência Artificial na Educação Brasileira
 >
-> No que diz respeito à produtividade, estudos indicam que profissionais em regime remoto tendem a apresentar níveis de produtividade iguais ou superiores. Essa constatação desafia paradigmas tradicionais de gestão e evidencia a necessidade de uma abordagem mais holística.
+> A inteligência artificial deixou de ser coisa de filme de ficção científica e já faz parte do dia a dia de milhões de brasileiros, mesmo que muita gente nem perceba. Na educação, essa transformação está acontecendo de forma acelerada, e o Brasil se encontra num momento decisivo: ou abraça essas ferramentas de maneira inteligente, ou corre o risco de ampliar ainda mais as desigualdades que já existem no sistema educacional do país. Plataformas adaptativas, tutores virtuais e sistemas de correção automática já são realidade em diversas escolas e universidades, mas a adoção ainda é muito desigual entre as redes pública e privada.
 >
-> - 💡 **Flexibilidade:** Profissionais podem trabalhar de qualquer lugar, promovendo qualidade de vida.
-> - 🚀 **Produtividade:** Estudos apontam ganhos de produtividade em diversos setores.
-> - ✅ **Inclusão:** O modelo remoto pode contribuir para a inclusão de profissionais de regiões diversas.
+> Um dos maiores benefícios que a IA traz para a educação é a possibilidade de personalizar o aprendizado. Cada aluno aprende num ritmo diferente, e qualquer professor que já enfrentou uma sala com 40 estudantes sabe que é praticamente impossível dar atenção individualizada para todo mundo. Ferramentas baseadas em IA conseguem identificar onde cada aluno está com dificuldade e adaptar o conteúdo de acordo, oferecendo exercícios extras em pontos fracos e avançando mais rápido onde o estudante já domina o assunto. Isso não substitui o professor, mas funciona como um assistente que está disponível 24 horas por dia.
 >
-> Diante do exposto, pode-se afirmar que o trabalho remoto configura-se como uma tendência irreversível no cenário brasileiro. Apesar dos desafios inerentes, as perspectivas são promissoras, impulsionando a inovação e fortalecendo a competitividade do país no cenário global.
+> Ao mesmo tempo, não dá para ignorar os desafios que isso traz no contexto brasileiro. A gente está falando de um país onde muitas escolas ainda não têm acesso estável à internet, onde faltam computadores e onde boa parte dos professores não recebeu formação para lidar com essas tecnologias. Implementar soluções de IA sem resolver esses problemas básicos de infraestrutura é como tentar construir o telhado de uma casa que ainda não tem parede. Existe também a questão da privacidade dos dados dos alunos, um tema que ainda é tratado com pouca seriedade por muitas instituições.
+>
+> Outro ponto que gera bastante debate é o uso de ferramentas como o ChatGPT e similares por parte dos estudantes. Muitas instituições reagiram com medo, tentando proibir o uso dessas tecnologias, mas a tendência que tem se mostrado mais produtiva é a de integrar essas ferramentas no processo de ensino. Algumas universidades brasileiras já estão reformulando suas avaliações para que os alunos usem IA como parte do trabalho, focando mais no pensamento crítico e na capacidade de fazer boas perguntas do que na simples reprodução de conteúdo decorado. Isso, no fundo, é preparar o aluno para o mercado de trabalho que já existe lá fora.
+>
+> O caminho que a educação brasileira vai percorrer com a inteligência artificial depende muito das decisões que estão sendo tomadas agora. Investir em formação de professores, garantir infraestrutura mínima para todas as escolas e criar políticas públicas que orientem o uso responsável dessas tecnologias são passos fundamentais. A IA não vai resolver todos os problemas da educação no Brasil, seria ingenuidade acreditar nisso, mas tem potencial para ser uma ferramenta poderosa de democratização do conhecimento. O importante é que essa transformação aconteça de forma inclusiva, e não apenas para quem já tem acesso a tudo.
 
 **Depois (humanizado):**
-> Antes da pandemia, trabalho remoto no Brasil era basicamente coisa de empresa de tecnologia. Depois de 2020, se espalhou para outras áreas.
+> # O impacto da inteligência artificial na educação brasileira
 >
-> A mudança mais concreta foi geográfica. Profissionais de Recife, BH e Florianópolis passaram a disputar vagas em São Paulo sem se mudar. Salário de capital, custo de vida de cidade menor. Funcionou por um tempo, até as empresas começarem a diferenciar faixa salarial por região.
+> A inteligência artificial já faz parte do cotidiano de milhões de brasileiros, mesmo que muita gente não perceba. Na educação, a mudança é visível: plataformas adaptativas, tutores virtuais e sistemas de correção automática já funcionam em escolas e universidades pelo país. Mas a adoção é desigual. Escolas particulares avançam rápido, enquanto boa parte da rede pública ainda não tem o básico para acompanhar.
 >
-> A produtividade é o argumento mais usado a favor, mas os dados não fecham. A FGV publicou uma pesquisa em 2022 mostrando aumento de produtividade auto-reportada, o que prova pouco. Medir produtividade de quem trabalha com conhecimento é difícil em qualquer modelo.
+> O benefício mais evidente na sala de aula é a personalização. Qualquer professor que já enfrentou uma turma de 40 alunos sabe que dar atenção individual a cada um é inviável. Ferramentas de IA identificam onde cada aluno tem dificuldade e ajustam o conteúdo: mais exercícios nos pontos fracos, avanço mais rápido onde o estudante já domina a matéria. Não substitui o professor, mas funciona como um reforço disponível a qualquer hora. O problema é onde isso precisa funcionar. Muitas escolas brasileiras ainda não têm internet estável, faltam computadores e a maioria dos professores não recebeu formação para usar essas tecnologias. Adotar soluções de IA nessas condições não resolve nada. A privacidade dos dados dos alunos é outra questão que segue mal resolvida.
 >
-> Os problemas são reais. Dados do DIEESE indicam que trabalhadores remotos fazem mais horas do que faziam no escritório, em parte porque a fronteira entre expediente e vida pessoal se dissolve. A infraestrutura de internet fora das capitais continua precária.
+> O ChatGPT e ferramentas similares provocaram pânico em muitas universidades, que tentaram proibir o uso. A abordagem que tem funcionado melhor é oposta: integrar a IA ao processo de avaliação. A PUC-RS e a Unicamp, por exemplo, já reformularam provas e trabalhos para que o aluno use essas ferramentas, mas precise demonstrar pensamento crítico sobre o resultado. O foco sai da reprodução de conteúdo decorado e vai para a capacidade de formular perguntas e avaliar respostas. Isso faz sentido: o mercado de trabalho já opera assim.
 >
-> Em 2025, várias empresas grandes voltaram a exigir presencial 3 a 4 dias por semana. Se é tendência ou oscilação, ninguém sabe ainda.
+> O que vai acontecer com a educação brasileira depende de decisões que estão sendo tomadas agora. Formar professores para lidar com IA, garantir que escolas tenham pelo menos internet funcional e criar regras claras de uso são os passos mais urgentes. A IA não vai consertar os problemas estruturais da educação no Brasil, mas ignorá-la também não é opção.
 
 ## Referências
 
